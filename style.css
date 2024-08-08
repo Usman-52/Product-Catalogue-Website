@@ -65,6 +65,7 @@ nav {
 .left-side-nav {
     background-color:azure;
     width: 20%;
+    height: auto;
     margin-right: 2%;
 }
 
@@ -99,6 +100,48 @@ nav {
 
 .right-side-box img {
     width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.smart-phone {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin-top: 2% ;
+    margin-left: 2%;
+    margin-right: 2%; */
+    
+
+}
+
+.card {
+    display: inline-block;
+    width: 250px;
+    height: auto;
+    border: 1px solid black;
+    margin: 2%;
+}
+
+.img img {
+    width: 250px;
+    height: 280px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   background-color: rgba(137,46,193,1);
+   margin-top: -5px;
+   color: azure;
+   font-size: larger;
 }
 
 
