@@ -109,7 +109,13 @@ nav {
     height: 250px;
 }
 
-h1 {
+.welcome {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.heading {
     text-align: center;
     margin-top: 2%;
 }
@@ -180,4 +186,70 @@ footer {
     color: rgba(137,46, 193, 1);
     padding-left: 10px;
     margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo img {
+        width: 80px;
+    }
+
+    .search input {
+        width: 250px;
+        font-size: 12px;
+        padding-left: 5px;
+        height: 25px;
+    }
+
+    .search img {
+        width: 20px;
+        height: 25px;
+        padding-left: -20px;
+    }
+
+    .icons i {
+        font-size: 18px;
+        margin-left: 5px;
+
+    }
+
+    .left-side-nav {
+        width: 100%; 
+        height: auto;
+        background-color: azure;
+        margin-right: 1%;
+    }
+
+    .h1 {
+
+        font-size: medium;
+    }
+    .left-side-nav ul {
+        line-height: 25px;
+        font-size: large;
+        padding-left: 7.5%;
+    }
+
+    .welcome {
+        font-size: 15px;
+    }
+
+    .welcome-p {
+        font-size: 10px;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .heading {
+        font-size: medium;
+        margin-top: 1%;
+    }
+
+    .card {
+        margin: 1%;
+        width: 200px;
+    }
+
+    .img img {
+        width: 200px;
+    }
 }

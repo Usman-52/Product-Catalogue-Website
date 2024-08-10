@@ -1,0 +1,101 @@
+.left-side-nav ul {
+    list-style: none;
+    padding-left: 15%;
+    padding-top: 5%;
+    line-height: 35px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.left-side-nav a {
+    text-decoration: none;
+    color: rgba(137,46,193,1);
+}
+
+.right-side-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: azure;
+    width: 70%;
+    background: linear-gradient(90deg, rgba(10,207,204,1)  , rgba(137,46,193,1) );
+}
+
+.right-side-box{
+    width: 900px;
+    height: 250px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.smart-phone {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: inline-block;
+    width: 250px;
+    height: auto;
+    border: 1px solid black;
+    margin: 2%;
+}
+
+.img img {
+    width: 250px;
+    height: 280px;
+}
+
+.info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(137,46,193,1);
+    margin-top: -5px;
+    color: azure;
+    font-size: larger;
+    padding-top: 10px;
+}
+
+.Laptops {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.smart-Watch {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(90deg, rgba(10,207,204,1)  , rgba(137,46,193,1) );
+    height: 70px;
+    color: azure;
+    
+}
+
+.social-media-icons i {
+    font-size: 28px;
+    color: rgba(137,46, 193, 1);
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
