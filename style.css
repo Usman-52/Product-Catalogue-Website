@@ -83,7 +83,7 @@ nav {
 .left-side-nav ul {
     list-style: none;
     padding-left: 15%;
-    padding-top: 5%;
+    /* padding-top: 5%; */
     line-height: 35px;
     font-size: larger;
     font-weight: bolder;
@@ -270,7 +270,7 @@ footer {
 /* * FOR 4K SCREEN  */
 
 
-@media only screen and (max-width: 604.8px) {
+@media only screen and (max-width: 604px) {
     .logo img {
         width: 80px;
     }
@@ -321,6 +321,7 @@ footer {
         line-height: 25px;
         font-size: large;
         padding-left: 7.5%;
+        padding-top: -10%;
     }
 
     .welcome {
@@ -352,3 +353,78 @@ footer {
     }
 }
 
+@media only screen and (max-width: 394px) {
+    nav {
+        height: 50px;
+    }
+    .logo img {
+        width: 70px;
+    }
+
+    .search input {
+        width: 150px;
+        font-size: 10px;
+        padding-left: 3px;
+        height: 20px;
+        border: none;
+    }
+
+    .search img {
+        width: 15px;
+        height: 20px;
+
+    }
+
+    .welcome {
+        font-size: 10px;
+    }
+
+    .card {
+        width: 150px;
+        height: 150;
+    }
+
+    .card img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .info {
+        font-size: 10px;
+    }
+
+    .heading {
+        font-size: small;
+        margin-top: 2%;
+    }
+
+    .l-card {
+        width: 200px;
+        height: auto;
+    }
+
+    .l-img img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .w-card {
+        width: 200px;
+        height: auto;
+    }
+
+    .w-img img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    footer {
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .social-media-icons i {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+}
